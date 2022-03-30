@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Syne+Mono&display=swap');
+
+header {
+  display: flex;
+  img.header_img {
+    height: 100vh;
+    width: 60%;
+  }
+  div.sidebar-right {
+    border-left: 2px;
+    border-left-style: groove;
+    background: linear-gradient(
+      120deg,
+      rgba(61, 66, 58, 0.514),
+      rgba(222, 245, 245, 0.459)
+    );
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    p {
+      color: rgba(0, 0, 0, 0.788);
+      font-size: 30px;
+      font-family: "Hubballi", cursive;
+    }
+    .line {
+      border: 1px solid;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-family: 'Hubballi', cursive;
+    }
+    .isDriver {
+      display: flex;
+      .btn-link {
+        text-decoration: none;
+      }
+      button {
+        margin: 20px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+h2 {
+  color: #100f10;
+  font-size: 35px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.3vw #f7f7fe;
+}
+
+h2::before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #37b9f1;
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-text);
+  border-right: 2px solid #37b9f1;
+  -webkit-text-stroke: 0vw #f7f7fe;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
+}

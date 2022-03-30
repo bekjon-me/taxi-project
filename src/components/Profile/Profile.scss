@@ -1,0 +1,45 @@
+#profile {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+
+  .card {
+    .row.g-0 {
+      #profile_img {
+        display: flex;
+        height: 75vh;
+
+        img {
+          margin: auto;
+          border-radius: 8px;
+          max-width: 80%;
+          max-height: 80%;
+        }
+      }
+
+      .col-md-4 {
+        display: flex;
+        align-items: center;
+
+        .tooltiptext {
+          visibility: hidden;
+          font-size: 25px;
+          transform: translate(10px, -80px);
+        }
+
+        &:hover .tooltiptext {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+#changeBtn:hover {
+  cursor: pointer;
+}
+
+#carPhoto {
+  max-width: 80%;
+  max-height: 80%;
+}

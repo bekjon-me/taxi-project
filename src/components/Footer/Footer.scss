@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  background-color: #000;
+  .footerTitle {
+    color: #fff;
+  }
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    div {
+      margin: 10px 20px;
+      a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 5px;
+      }
+    }
+    div.number {
+      a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 5px;
+      }
+    }
+  }
+}
