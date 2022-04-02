@@ -16,7 +16,7 @@ const AppRouter = () => {
   const [user] = useAuthState(auth);
   return (
     <>
-      {user ? (
+      {user ? ( 
         <Router>
           <Navbar />
           <Routes>

@@ -4,7 +4,7 @@ import {
   PROFILE_ROUTE,
 } from "../../utils/consts";
 import uuid from "react-uuid";
-import Login from "../../pages/Login/Login";
+import SignUp from "../../pages/SignUp/SignUp";
 import MainPage from "../../pages/MainPage/MainPage";
 import Profile from "../Profile/Profile";
 
@@ -12,7 +12,7 @@ export const publicRoutes = [
   {
     id: uuid(),
     path: LOGIN_ROUTE,
-    element: <Login />,
+    element: <SignUp />,
   },
 ];
 
