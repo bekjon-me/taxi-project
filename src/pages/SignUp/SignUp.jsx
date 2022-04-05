@@ -81,7 +81,6 @@ const SignUp = () => {
 
         const docData = {
           id: user?.uid,
-          cost: 10000,
           phoneNumber: user?.phoneNumber ? user?.phoneNumber : "kiritilmagan",
           carName: "kiritilmagan",
           name: user?.displayName,
