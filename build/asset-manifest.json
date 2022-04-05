@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.291a3214.css",
+    "main.js": "/static/js/main.99ddc7a9.js",
+    "static/media/taxi_header.gif": "/static/media/taxi_header.71fcb3f69197baa97582.gif",
+    "static/media/header_main.jpg": "/static/media/header_main.a3d59b502f121c7beb00.jpg",
+    "static/media/taxi.ico": "/static/media/taxi.85fa4f41ff07bc2c9ccc.ico",
+    "index.html": "/index.html",
+    "main.291a3214.css.map": "/static/css/main.291a3214.css.map",
+    "main.99ddc7a9.js.map": "/static/js/main.99ddc7a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.291a3214.css",
+    "static/js/main.99ddc7a9.js"
+  ]
+}
